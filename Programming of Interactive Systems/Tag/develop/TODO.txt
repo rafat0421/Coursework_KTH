@@ -1,0 +1,33 @@
+So, here is what is needed:
+
+  (a) Each player can be either 'it' or 'not it', and depending on
+      what it currently is, its behaviour changes appropriately.
+      ------------------------------------------------------------
+
+
+
+
+
+  (b) A player needs cooperation from the Bailiffs so that is can:
+      (1) Get a list of players currently located in a Bailiff
+
+      (2) Query each player if they are 'it' or not.
+      (3) Try to tag a player
+
+  (c) From (b) it follows that each player must have a unique id, so
+  that it can:
+      (1) Recognise itself in a list of players (b.1)
+      (2) Specify some other player (b.2 and b.3)
+
+  (d) Finally, there must be some mechanism that determines exactly if
+      a player can be tagged or not. This has to do with the way
+      mobility actually works. When a mobile object (e.g. a player)
+      'moves' from one Bailiff to another, it does not really move at
+      all. It sends a copy of itself to the other Bailiff, and if the
+      copy was successful, the original object terminates its thread
+      of execution and goes to garbage collection. Thus, if a player
+      is tagged at the wrong moment, the copy of the player that moved
+      away stays untagged, while the original object instance is
+      tagged instead. When the original instance dies, it takes the
+      'it' property with it into oblivion, and the tag is lost from
+      the game.

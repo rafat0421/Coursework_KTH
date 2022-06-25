@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f718fc9a-b6c4-46af-b535-09281b16f8fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/dist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/dist.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tag/bailiff/Bailiff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tag/bailiff/Bailiff$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tag/bailiff/Bailiff$Agitator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tag/bailiff/Bailiff$Agitator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tag/bailiff/Bailiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tag/bailiff/Bailiff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tag/bailiff/BailiffInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tag/bailiff/BailiffInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tag/dexter/Dexter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/tag/dexter/Dexter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tag/dexter/DexterInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Bailiff-dl.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Bailiff-dl.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Bailiff.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Bailiff.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/Dexter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/dist/Dexter.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/develop/tag/bailiff/Bailiff$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/develop/tag/bailiff/Bailiff$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/develop/tag/bailiff/Bailiff.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/develop/tag/bailiff/Bailiff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/develop/tag/bailiff/BailiffInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/develop/tag/bailiff/BailiffInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/develop/tag/dexter/Dexter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/develop/tag/dexter/Dexter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/develop/tag/dexter/DexterInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/bin/pc/HTTPD_CFG.BAT" beforeDir="false" afterPath="$PROJECT_DIR$/../test/bin/pc/HTTPD_CFG.BAT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/cbs/Bailiff-dl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/cbs/Bailiff.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/cbs/Dexter.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/cbs/jini-core.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/cbs/jini-ext.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/cbs/reggie-dl.jar" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XtfWr0Q8qhBliiRjaaVBxXApjG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1bbe1a8a-7537-4dc1-8933-1da70615d6cf" name="Default Changelist" comment="" />
+      <created>1581870345076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581870345076</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="179" key="#Java" timestamp="1581870900475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="179" key="#Java/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581870900475" />
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581931851909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581931851909" />
+    <state x="740" y="262" key="FileChooserDialogImpl" timestamp="1581870415059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581870415059" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581927631329">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581927631329" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1581927874992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1581927874992" />
+  </component>
+</project>
