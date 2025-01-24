@@ -1,0 +1,381 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-weight: 300;
+  background-color: #8b96ad;
+  color: white;
+}
+
+.element {
+  border-radius: 10px;
+}
+
+.button {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.button:click {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.headline {
+  flex-grow: 2;
+  margin-left: 10px;
+}
+
+.clock {
+  margin-right: 10px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100px;
+  transform: rotate(-90deg);
+}
+
+/* Layout of the second and third level */
+
+.wrapper {
+  min-width: 1300px;
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+}
+
+.row {
+  display: flex;
+  margin-top: 20px;
+}
+
+.header {
+  margin-top: 10px;
+  color: white;
+  height: 50px;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: linear-gradient(to right,#989ce7,#01055e);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+/* First Level */
+
+.heating {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  vertical-align: middle;
+  margin-right: 11px;
+  flex: 1;
+}
+
+.container-header {
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container-body {
+  margin-top: 25px;
+}
+
+.control-panel {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-room {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 225px;
+  background-color: #e2e8e4;
+  color: black;
+  border: none;
+  padding: 15px;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  margin-left: 10px;
+}
+
+.currWeather {
+  margin-left: 10px;
+  flex: 0.245;
+}
+
+.blinds {
+  height: 350px;
+  margin-right: 11px;
+  flex: 1;
+}
+
+.systemStatus {
+  margin-left: 10px;
+  flex: 0.265;
+}
+
+.controlsHeating {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Styling of the Room-Containers*/
+
+/*Styling of the Heating Elements*/
+
+.sectionHeadline {
+  font-size: 1.7vw;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.target_temperature {
+  margin-top: 10px;
+  font-size: 150%;
+}
+
+.target_temperature::after {
+  content: " °C";
+}
+
+.actual_temperature {
+  margin-top: 10px;
+  font-size: 150%;
+}
+
+.actual_temperature::after {
+  content: " °C";
+}
+
+.toggle {
+  background-color: white;
+  border: none;
+  height: 40px;
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  color: #c9a330;
+}
+
+.toggle:hover {
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+}
+
+.mode {
+  margin-bottom: 5px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.up {
+  width: 100%;
+  margin-right: 5px;
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #efb509;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  outline: none;
+  border: none;
+}
+
+.up:hover {
+  cursor: pointer;
+  transform: scale(1.015);
+  background-color: #ffcc32;
+}
+
+.up:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.541) 0px 18px 36px -18px inset;
+}
+
+.down {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+  background-color: #efb509;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.down:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  background-color: #ffcc32;
+}
+
+/* Styling of Current Weather Elements */
+
+.icon {
+  font-size: 70px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.temperature {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.temperature::after {
+  content: " °C";
+}
+
+button.active {
+  background-color: rgb(206, 202, 202);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.541) 0px 18px 36px -18px inset;
+}
+
+/* Styling of the Blinds Elements */
+
+input[type="range"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 12vh;
+  height: 0.25vw;
+  margin-top: 80px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #8b96ad;
+  box-shadow: 0 1px 0px rgba(255, 255, 255, 0.25),
+    inset 0 0 4px rgba(0, 0, 0, 0.9);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  border: 1px solid black;
+  width: 0.75vw;
+  max-width: 80px;
+  height: 1.5vh;
+  border-radius: 50%;
+  bottom: 11px;
+  background-color: #efb509;
+  opacity: 0.9;
+  cursor: -webkit-grab;
+}
+
+.sldContainer {
+  flex-direction: column;
+  margin-bottom: 45px;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.val {
+  font-size: 80%;
+}
+
+.val::after {
+  content: " %";
+}
+
+.soll {
+  text-align: center;
+}
+
+/* Styling of SystemStatus Elements */
+
+.sysHeadline {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.3vw;
+}
+
+.simulationSpeed {
+  display: flex;
+  color: black;
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.speed {
+  width: 3rem;
+  height: 2rem;
+  margin-right: 5px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  background-color: #efb509;
+}
+
+.speed:hover {
+  cursor: pointer;
+}
+
+.speed:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.541) 0px 18px 36px -18px inset;
+}
+
+.close {
+  height: 25px;
+  width: 40px;
+  margin-right: 3px;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  margin-top: 5px;
+  font-size: 10px;
+  border-radius: 5px;
+  background-color: #efb509;
+  outline: none;
+  border: none;
+}
+
+.lblSimSpeed {
+  font-size: 13px;
+}
+
+/* Style of the Alerts */
+
+.alert-content {
+  visibility: hidden;
+  text-align: center;
+  font-size: 10px;
+  background-color: #ae3030;
+  border-radius: 5px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.alert-overlay.active {
+  visibility: visible;
+}
+
+.alert-content.active {
+  visibility: visible;
+}

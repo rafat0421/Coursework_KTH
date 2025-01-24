@@ -1,0 +1,30 @@
+{
+  "name": "iot-project",
+  "version": "1.0.0",
+  "description": "IoT-Project",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jan-pfr/iot-project.git"
+  },
+  "author": "Jan Pfeiffer, Benedikt Scheffbuch, Alex Hauser, Henrik Alt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jan-pfr/iot-project/issues"
+  },
+  "homepage": "https://github.com/jan-pfr/iot-project#readme",
+  "dependencies": {
+    "aedes": "^0.44.1",
+    "express": "^4.17.1",
+    "mqtt": "^4.2.6",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^1.0.0"
+  },
+  "devDependencies": {
+    "jquery": "^3.5.1"
+  }
+}
