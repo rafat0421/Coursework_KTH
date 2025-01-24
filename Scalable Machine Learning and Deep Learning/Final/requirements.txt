@@ -1,0 +1,6 @@
+gradio
+hopsworks
+joblib
+pandas
+numpy
+folium
