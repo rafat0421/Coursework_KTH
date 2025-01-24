@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% template for II2202 report
+%% original 2015.11.24
+%% revised  2020.09.09
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\documentclass[12pt,twoside,english]{article}
+\usepackage[utf8]{inputenc}
+
+\input{lib/includes}
+\input{lib/acronyms}
+
+\title{Avoiding Multicast Acknowledgement Explosions in Multicast File Distribution Protocol}
+\author{
+        \textsc{Gerald Q. Maguire Jr.}
+            \qquad
+        \textsc{Anders Västberg}
+        \mbox{}\\
+        \normalsize
+            \texttt{maguire}
+        \textbar{}
+            \texttt{vastberg}
+        \normalsize
+            \texttt{@kth.se}
+}
+\date{\today}
+
+
+\lhead{II2202, Fall 2018, Period 1-2}
+%% or \lhead{II2202, Fall 2016, Period 1}
+\chead{Draft project report}
+\rhead{\date{\today}}
+
+\makeatletter
+\let\ps@plain\ps@fancy 
+\makeatother
+
+\setlength{\headheight}{15pt}
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+\label{sec:abstract}
+
+Your abstract here.
+
+\end{abstract}
+%%\clearpage
+
+\selectlanguage{english}
+\tableofcontents
+
+\section*{List of Acronyms and Abbreviations}
+\label{list-of-acronyms-and-abbreviations}
+\renewcommand{\glossarysection}[2][]{} %% skip the title
+\printglossary[type=\acronymtype,nonumberlist]
+
+
+\clearpage
+%% The following two sections will later move into the \section{Introduction} in the report
+\section{Aims, Objectives, Goals, Research questions, hypotheses}
+\label{sec:aims}
+
+\section{Background and rationale}
+\label{sec:background}
+
+It was conjectured in \cite{john_ioannidis_coherent_1991} that multicasting
+could provide gains by avoiding an explosion of \glspl{ACK} by using vectorized \glspl{NACK} \ldots.
+
+See also \cite{a_new_synchronization_protocol_for_sqlite_databases},
+the paper \cite{anand_kannan_n-ary_2012}, 
+and the book \cite{brent_s._baxter_standard_1982}.
+
+%% The following section will move into {Theoretical framework/literature study} in the report
+\section{Theory/literature}
+\label{sect:framework}
+
+xxxxx xxxx xxxx 
+
+%% Following two sections will move into the \secton{Method} in the final report
+\section{Research Methodology}
+\label{sec:method}
+
+xxxxx xxxx xxxx 
+
+\section{Participants, Procedures, Data collection and analysis}
+\label{sec:sourcesOfData}
+
+%% The following two sections will move into \section{Results and Analysis} in the report
+\section{Expected outcomes}
+\label{sec:expectedOutcomes}
+
+xxxxx xxxx xxxx 
+\section {Milestones/schedule, budget}
+\label{sec:milestones}
+
+\section{Risks}
+
+xxxxx xxxx xxxx 
+
+\section{Outline}
+%% Outline of your future report
+
+\bibliography{II2202-research-plan}
+%%\bibliographystyle{IEEEtran}
+\bibliographystyle{myIEEEtran}
+\appendix
+\section{Appendix/Appendices}
+
+Note that the Appendix or Appendices are Optional.
+
+
+\end{document}
